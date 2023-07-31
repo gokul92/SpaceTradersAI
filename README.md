@@ -15,7 +15,11 @@ The goal of this work is to build an AI that can play the game in an automated f
 
 ## Work in progress
 The SpaceTraders-AI jupyter notebook currently does the following - 
-1. 
+1. Allows you to register your own SpaceTraders agent
+2. Load, clean and reduce the SpaceTraders API documentation
+3. Instantiate an LLM planning agent (OpenAI token required)
+4. Feed the specs and prime the LLM agent
+5. Create a query and ask the LLM agent to accomplish a set of tasks
 
 ## Limitations
 The primary limitations are - 
@@ -25,4 +29,4 @@ The primary limitations are -
 4. Given the length of the documentation (over 50,000+ tokens), the LLM agent can lose context when trying to accomplish sophisticated goals involving multiple tasks. This can be minimized by making the chat interactive and priming the LLM with appropriate portions of the documentation when in doubt.
 
 ## Next steps
-1. Make the chat model interactive by allowing it to ask clarifying questions
+1. Make the chat model interactive. This will allow us to break the tasks into pieces, work around the context length limit and allow the LLM to ask clarifying questions
