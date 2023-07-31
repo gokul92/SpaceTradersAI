@@ -7,8 +7,10 @@ SpaceTraders is an open-universe, programmable fleet-management game played thro
 You can trade goods across systems, mine asteroids for valuable ores, or take on faction contracts to earn credits and reputation.
 
 ## Documentation
+
 You can learn more about the game here - https://spacetraders.io/
-The documentation for the API is availabel here - https://docs.spacetraders.io/. The documentation was generated using OpenAPI.
+
+The documentation for the API, which was generated using OpenAPI is available here - https://docs.spacetraders.io/. 
 
 ## Goal
 The goal of this work is to build an AI that can play the game in an automated fashion, once the user specifies a set of goals they want to achieve.
