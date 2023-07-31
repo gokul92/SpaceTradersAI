@@ -4,6 +4,7 @@
 An AI to play the SpaceTraders.io game
 
 SpaceTraders is an open-universe, programmable fleet-management game played through a headless API. Thus, it can be entirely played by making GET, POST, PATCH calls to the endpoint.
+You can trade goods across systems, mine asteroids for valuable ores, or take on faction contracts to earn credits and reputation.
 
 ## Documentation
 You can learn more about the game here - https://spacetraders.io/
